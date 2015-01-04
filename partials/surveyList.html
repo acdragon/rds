@@ -1,0 +1,56 @@
+<h1>Survey List</h1>
+<!-------------------------------- BODY CONTENT --------------------------------- -->	
+			<div class="container">
+				<div class="row">
+											 <div class='col-md-12 column'>
+						  <div class='panel panel-primary'>
+						   <div class='panel-heading'>
+							<h5>Relief Operation</h5>
+						   </div>
+							<div class='panel-body'>
+								<a href="" ng-click="newSurvey()" class='btn btn-success' >New Survey</a>
+							<br>
+							<br>
+						 <div class='col-md-12 column'>
+						  <div class='panel panel-primary'>
+						   <div class='panel-heading'>
+							<h5>Relief Operation Table</h5>
+						   </div>
+							<div class='panel-body'>
+							<table id='rOperation' class='table table-stripped display'>
+							 <thead>
+							  <tr>
+							  <th>
+								 Survey Name
+							  </th>
+							  <th>
+								 Relief Operation
+							  </th>
+							  <th>
+								 Action
+							  </th>
+							  </tr>
+							 </thead>
+								 <tbody>
+																							<tr>
+															<td>Glenda Survey</td>
+															<td>Glenda</td>
+															<!-- edit this nerd (uses the edit method found at GET /nerds/{id}/edit -->
+															<td>
+																<a class="btn btn-small btn-info" href="" ng-click="editSurvey(65)">Edit Survey Name</a>
+																<a class="btn btn-small btn-success" href="" ng-click="addQuestions(65)" >Add Survey Question</a>
+															</td>
+														</tr>
+																	 </tbody>
+							</table>
+							</div>
+						  </div>
+						 </div>
+							</div>
+						  </div>
+						 </div>
+				</div>	<!-- Row --->
+			</div>
+			
+       
+			<!-------------------------------- END BODY CONTENT ------------------------------ -->

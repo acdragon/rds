@@ -1,0 +1,74 @@
+<h1>{{title}}</h1>
+<div class="container">
+			<div class="row">
+				<div class="col-md-12 column">
+					<div class="panel panel-primary">
+						<div class="panel-heading">
+							<h3 class="panel-title">
+								New Relief Operation Details
+							</h3>
+						</div>
+						<div class="panel-body">
+						<div class="well">
+						
+							
+							<!-- Start Form - -->
+							<form method="POST" action="http://localhost:8080/newrds/RDS/public/relief_operation" accept-charset="UTF-8"><input name="_token" type="hidden" value="A5TXhESj3vhXcwhkR5IgXgcPTKcrWbDT3M9eHa8u">
+							
+							<div class="col-md-4 column">	
+								<div class="form-group">
+									<label for="name">Relief Operation Name</label>
+									<input class="form-control" id="name" name="name" type="text">
+								</div>
+							</div>
+							
+							<div class="col-md-4 column">	
+								<div class="form-group">
+									<label for="category">Category</label>
+									<select class="form-control  chosen-select" id="category" name="category"><option value="1">Category 1</option><option value="2">Category 2</option><option value="3">Category 3</option><option value="4">Select a Category</option></select>
+								</div>
+							</div>
+							
+							<div class="col-md-4 column">	
+								<div class="form-group">
+									<label for="disaster_name">Disaster Name</label>
+									<input class="form-control" id="disaster_name" name="disaster_name" type="text">
+								</div>
+							</div>
+							
+							<div class="col-md-4 column">	
+								<div class="form-group">
+									<label for="disaster_type">Disaster Type</label>
+									<select class="form-control  chosen-select" id="disaster_type" name="disaster_type"><option value="1">Typhoon</option><option value="2">Earthquake</option><option value="3">Habagat</option><option value="4">Select a Disaster Type</option></select>
+								</div>
+							</div>
+							<div class="col-md-4 column">	
+								<div class="form-group">
+									<label for="date_start">Date Start</label>
+									<input class="form-control dtp" id="date_start" name="date_start" type="text">
+								</div>
+							</div>
+							
+							<div class="col-md-4 column">		
+								<div class="form-group">
+									<label for="date_end">Date End</label>
+									<input class="form-control dtp" id="date_end" name="date_end" type="text">
+								</div>
+							</div>
+							<input class="btn btn-primary" type="submit" value="Save Record!">
+
+						</form>
+							<!-- End Form-->
+							
+						</div>
+						<div class="panel-footer">
+							Panel Footer
+						</div><!--- DTP -->
+						</div>
+				</div> <!--- Col 8 -->
+				
+				
+				</div> <!--- New Row --- -->	
+					
+					
+				</div>

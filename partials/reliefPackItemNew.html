@@ -1,0 +1,63 @@
+<h1>Relief Pack Item New packID: {{packID}}</h1>
+
+
+			<!-------------------------------- BODY CONTENT --------------------------------- -->	
+			<div class="container">
+			<div class="row">
+				<div class="col-md-12 column">
+					<div class="panel panel-primary">
+						<div class="panel-heading">
+							<h3 class="panel-title">
+								New Relief Pack Details
+							</h3>
+						</div>
+						<div class="panel-body">
+							
+							<!-- Start Form - -->
+							<form method="POST" action="http://localhost:8080/newrds/RDS/public/relief_pack_item" accept-charset="UTF-8"><input name="_token" type="hidden" value="0NirIDlWMPZHamd4XoeIc0VJ5d7HLRKi9dgiK5KZ">
+							
+							<input class="form-control" id="pack_id" name="pack_id" type="hidden" value="1">
+							<div class="col-md-4 column">	
+								<div class="form-group">
+									<label for="pack_name">Pack Name</label>
+									<input readonly="readonly" class="form-control" id="pack_name" name="pack_name" type="text" value="     e">
+								</div>
+							</div>
+							
+							<div class="col-md-4 column">	
+								<div class="form-group">
+									<label for="item_id">Item Name</label>
+									<select class="form-control  chosen-select" id="item_id" name="item_id"><option value="1">555 Tuna</option><option value="2">919 Sardines</option><option value="3">Item Name</option><option value="4">Munggo Bean</option><option value="5">Sanmarino Corned Tuna</option><option value="6">Bagio Beans</option><option value="7">Sardinas</option></select>
+								</div>
+							</div>
+							<div class="col-md-4 column">	
+								<div class="form-group">
+									<label for="UOM">Unit of Measurement</label>
+									<select class="form-control  chosen-select" id="UOM" name="UOM"><option value="1">Pcs</option><option value="2">Kg</option><option value="3">Grams</option></select>
+								</div>
+							</div>
+							<div class="col-md-4 column">	
+								<div class="form-group">
+									<label for="quantity">Quantity</label>
+									<input class="form-control" id="quantity" name="quantity" type="text">
+								</div>
+							</div>
+							
+									<input class="btn btn-primary" type="submit" value="Save Item!">
+						</form>
+							<!-- End Form-->
+						</div>	 <!-- Panel Body End -->
+						
+						
+						<div class="panel-footer">
+							Panel Footer
+						</div><!--- DTP -->
+						</div>
+				</div> <!--- Col 8 -->
+				
+				
+				</div> <!--- New Row --- -->	
+					
+					
+				</div>
+			
